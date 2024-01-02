@@ -22,6 +22,10 @@
     background-color: #77BEFE;
 }
 
+.pokemon:nth-child(n+10) {
+    background-color: #a8b720;
+}
+
 .pokemon .detail img{
     max-width: 100%;
     height: 110px;
@@ -58,6 +62,24 @@
     padding: .25rem .5rem;
     font-size: .625rem;
     margin: .25rem 0;
+    border-radius: 1rem;
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
     border-radius: 1rem;
 }
 
